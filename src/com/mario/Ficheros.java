@@ -13,8 +13,8 @@ import java.util.Scanner;
  */
 public class Ficheros {
      public void lerFich(String nomeFich) {
-
-        Scanner sc = null;
+         String res="";
+        Scanner sc =null;
         try {// Scanner ten excepcion por se nn se encotra o ficheiro por iso hay que faer un atry catch
 
             File f = new File(nomeFich); // creamos a clase File.
@@ -23,10 +23,12 @@ public class Ficheros {
             //tamen: sc = new Scanner(new File(nomeFich));
             
             while(sc.hasNextLine()){
-                String res=sc.nextLine();//leera a linea seguinte
-                System.out.println(res);
+                
+                res=res+sc.nextLine()+"\n";//leera a linea seguinte
+                
+                
                 //tamen se pode poñer system.out.println(sc.nextLine());
-            }
+            }System.out.println(res);
 
         } catch (FileNotFoundException ex) {
             System.out.println("Erro1 " + ex.toString());
