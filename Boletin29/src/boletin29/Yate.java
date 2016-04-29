@@ -13,7 +13,7 @@ public class Yate extends Barco{
 
     @Override
     public String toString() {
-        return "El alquiler del yate con matricula "+matricula+" , y con "+potencia+" CV de potencia ";
+        return "El alquiler del yate con matricula "+matricula+" , con "+camarotes+" camarotes y con "+potencia+" CV de potencia ";
     }
 
    
