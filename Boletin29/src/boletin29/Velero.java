@@ -12,7 +12,7 @@ public class Velero extends Barco{
 
     @Override
     public String toString() {
-        return "Velero{" + "mastiles=" + mastiles + '}';
+        return "El alquiler del velero con matricula "+matricula+" , y con "+mastiles+" mástiles ";
     }
 
     @Override

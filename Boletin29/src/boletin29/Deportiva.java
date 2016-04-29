@@ -11,7 +11,7 @@ public class Deportiva extends Barco{
 
     @Override
     public String toString() {
-        return "Deportiva{" + "potencia=" + potencia + '}';
+        return "El alquiler de la embarcacion deportiva con matricula "+matricula+" , y con "+potencia+" CV de potencia ";
     }
 
     

@@ -9,10 +9,7 @@ public abstract class Barco {
     
     public abstract void precio(int dias);
 
-    @Override
-    public String toString() {
-        return "Barco{" + "matricula=" + matricula + ", eslora=" + eslora + ", potencia=" + potencia + '}';
-    }
+    
     
    
     }
